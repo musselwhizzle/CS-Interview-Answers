@@ -14,10 +14,12 @@ This app will focus on #2.
 [List](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/List.kt)
 
 
-LinkedList 
+
+[LinkedList](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/LinkedList.kt)
+
 If you don't know what they are, go study this (https://www.geeksforgeeks.org/linked-list-set-1-introduction/).
 
-Graphs
+[Graphs](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/Graph.kt)
 
-BinarySearchTree (in case you interview at Google)
+[BinarySearchTree](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/BinarySearchTree.kt) (in case you interview at Google)
 
