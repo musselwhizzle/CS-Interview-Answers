@@ -14,7 +14,7 @@ For the Data Structures and Algorithms portion of your interview, all questions 
 
 In case you are still stressing, you WILL NOT be asked questions on sorting and nobody at any level is expecting you to whip out a Merge Sort, a Quick Sort, or solve the Traveling Salesman during an interview. So do not stress over this at all. I'm not saying don't understand this concepts and brush up on them, but relax, you aren't going to be asked to code them.
 
-So here they are. You will be asked a variation on these data structures each which shows iterating and searcing. 
+So here they are. You will be asked a variation of either iterating or searching on these data structures. 
  * [List](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/List.kt)
  * [LinkedList](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/LinkedList.kt)
  * [Graphs](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/Graph.kt)
