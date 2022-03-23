@@ -5,7 +5,10 @@ I can break your algorithm coding interview in 4 files. If I can break your codi
 The "algorithm" style or first round of CS interviews will fall into 1 of 2 categories: 
  1. the hypothetical design a system, or
  2. the notorious algorithm challenge. 
-This app will focus on #2. (For the first type, all I can say is you wont pass this. It's given by morons who are looking for you to guess the magic word they are thinking. It has nothing to do with designing a system, but allowing an interviewer to feel superior.) 
+
+This app will focus on #2. 
+
+(For the first type, all I can say is you wont pass this. It's given by a moron who is looking for you to guess the magic word they are thinking. It has nothing to do with designing a system, but allowing an interviewer to feel superior.) 
 
 
 List
