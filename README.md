@@ -22,3 +22,5 @@ In case you are still stressing, you WILL NOT be asked questions on sorting and 
 [Graphs](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/Graph.kt)
 
 [BinarySearchTree](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/BinarySearchTree.kt) (in case you interview at Google)
+
+So let's say you're an interviewer and reading this. Here's my encouragment to you: Stop asking them interviewer under stressful conditions to guess which algorithm solves it best. Just tell him. Talk to them about it and see if they are familar with it. Just say, "The optimal solution uses a breadth first search. Are you familar with that?" and if the answer is no, then change the question. You as the interviewer should be prepared ask various questions based upon the intervewer's experience. 
