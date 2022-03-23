@@ -15,13 +15,8 @@ The Data Structure and Algorithms porition of your interview will be on the few 
 
 [List](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/List.kt)
 
-
-
 [LinkedList](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/LinkedList.kt)
-
-If you don't know what they are, go study this (https://www.geeksforgeeks.org/linked-list-set-1-introduction/).
 
 [Graphs](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/Graph.kt)
 
 [BinarySearchTree](https://github.com/musselwhizzle/CS-Interview-Answers/blob/master/app/src/test/java/com/joshua/interviewanswers/BinarySearchTree.kt) (in case you interview at Google)
-
