@@ -3,7 +3,7 @@ I can break your algorithm coding interview in 4 files. If I can break your codi
 
 # Interview Questions
 The "algorithm" style or first round of CS interviews will fall into 1 of 2 categories: 
- 1. the hypothetical design a system, or
+ 1. the hypothetical design a "system", or
  2. the notorious algorithm challenge. 
 
 This codebase will focus on the latter.  
