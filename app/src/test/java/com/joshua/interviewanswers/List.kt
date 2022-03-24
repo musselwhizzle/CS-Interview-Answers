@@ -27,7 +27,7 @@ class List {
         else if (target > v) {
             return binarySearch(target, list, middle+1, max)
         } else {
-            return binarySearch(target, list, 0, middle-1)
+            return binarySearch(target, list, min, middle-1)
         }
     }
 
