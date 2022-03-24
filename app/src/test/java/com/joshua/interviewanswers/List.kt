@@ -19,7 +19,7 @@ class List {
     }
 
     private fun binarySearch(target: Int, list: List<Int>, min:Int=0, max:Int=list.size-1):Int {
-        if (min > max || max >= list.size || min < 0) return -1
+        if (min > max) return -1
         val middle = (max - min) / 2 + min
         val v = list.get(middle)
 
