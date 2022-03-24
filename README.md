@@ -8,7 +8,7 @@ The "algorithm" style or first round of CS interviews will fall into 1 of 2 cate
 
 This codebase will focus on the latter.  
 
-(For the first type, all I can say is you wont pass this. It's given by a moron who is looking for you to guess the magic word (s)he is thinking. It has nothing to do with designing a system, but allowing an interviewer to feel superior.) 
+(For the first type, all I can say is you wont pass this. It's given by a moron, walking on a treadmill during your interview, who is looking for you to guess the magic word (s)he is thinking. It has nothing to do with designing a system, but allowing an interviewer to feel superior.) 
 
 For the Data Structures and Algorithms portion of your interview, all questions are based upon 2 concepts: iterating and searching through various data structures. That's it. The only questions you will be asked are just variations on this concept. So here's the answers ahead of time. Just modify them to suit your interviewer's needs. 
 
