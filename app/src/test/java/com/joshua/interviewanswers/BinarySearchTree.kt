@@ -10,7 +10,6 @@ class BinarySearchTree {
     @Test
     fun flattenTree() {
         val list = mutableListOf<Int>()
-        // structure taken from https://www.geeksforgeeks.org/binary-search-tree-data-structure/
         val tree = Node(8)
         tree.lessThan = Node(3).apply {
             lessThan = Node(1)
