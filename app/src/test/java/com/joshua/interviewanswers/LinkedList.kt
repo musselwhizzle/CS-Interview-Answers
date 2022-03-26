@@ -37,6 +37,19 @@ class LinkedList {
         val toSwap = DoubleNode.build(5)
         val first = toSwap.first
         val last = toSwap.second
+        assertEquals(1, first.value)
+        assertEquals(2, first.next!!.value)
+        assertEquals(3, first.next!!.next!!.value)
+        assertEquals(4, first.next!!.next!!.next!!.value)
+        assertEquals(5, first.next!!.next!!.next!!.next!!.value)
+
+        assertEquals(5, last.value)
+        assertEquals(4, last.previous!!.value)
+        assertEquals(3, last.previous!!.previous!!.value)
+        assertEquals(2, last.previous!!.previous!!.previous!!.value)
+        assertEquals(1, last.previous!!.previous!!.previous!!.previous!!.value)
+
+        
         swap(first.next!!, first.next!!.next!!.next!!)
 
         assertEquals(1, first.value)
