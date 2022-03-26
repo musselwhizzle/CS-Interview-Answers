@@ -24,11 +24,11 @@ class LinkedList {
         assertEquals(-1, linearLoopSearch(-1, list))
 
         val toReverse = Node(1, Node(2, Node(3, Node(4))))
-        val versed = reverseLinkedList(toReverse)
-        assertEquals(4, versed.value)
-        assertEquals(3, versed.next!!.value)
-        assertEquals(2, versed.next!!.next!!.value)
-        assertEquals(1, versed.next!!.next!!.next!!.value)
+        val reversed = reverseLinkedList(toReverse)
+        assertEquals(4, reversed.value)
+        assertEquals(3, reversed.next!!.value)
+        assertEquals(2, reversed.next!!.next!!.value)
+        assertEquals(1, reversed.next!!.next!!.next!!.value)
 
 
         // swap 2 items in a linked list
