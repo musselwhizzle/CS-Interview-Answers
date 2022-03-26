@@ -49,7 +49,7 @@ class LinkedList {
         assertEquals(2, last.previous!!.previous!!.previous!!.value)
         assertEquals(1, last.previous!!.previous!!.previous!!.previous!!.value)
 
-        
+
         swap(first.next!!, first.next!!.next!!.next!!)
 
         assertEquals(1, first.value)
@@ -118,13 +118,9 @@ class LinkedList {
     }
 
     data class Node(var value: Int, var next: Node? = null)
-    data class DoubleNode(
-        val value: Int,
-        var previous: DoubleNode? = null,
-        var next: DoubleNode? = null) {
+    data class DoubleNode(val value: Int, var previous: DoubleNode? = null, var next: DoubleNode? = null) {
 
         companion object {
-
             /**
              * @return returns the first and last nodes in the list
              */
