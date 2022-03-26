@@ -29,6 +29,27 @@ class LinkedList {
         assertEquals(3, versed.next!!.value)
         assertEquals(2, versed.next!!.next!!.value)
         assertEquals(1, versed.next!!.next!!.next!!.value)
+
+
+        // swap 2 items in a linked list
+        // 1, 2, 3, 4, 5
+        // 1, 4, 3, 2, 5
+        val toSwap = DoubleNode.build(5)
+        val first = toSwap.first
+        val last = toSwap.second
+        swap(first.next!!, first.next!!.next!!.next!!)
+
+        assertEquals(1, first.value)
+        assertEquals(4, first.next!!.value)
+        assertEquals(3, first.next!!.next!!.value)
+        assertEquals(2, first.next!!.next!!.next!!.value)
+        assertEquals(5, first.next!!.next!!.next!!.next!!.value)
+
+        assertEquals(5, last.value)
+        assertEquals(2, last.previous!!.value)
+        assertEquals(3, last.previous!!.previous!!.value)
+        assertEquals(4, last.previous!!.previous!!.previous!!.value)
+        assertEquals(1, last.previous!!.previous!!.previous!!.previous!!.value)
     }
 
     private fun linearLoopSearch(target: Int, node: Node): Int {
@@ -45,7 +66,7 @@ class LinkedList {
     }
 
 
-    private fun linearRecursiveSearch(target: Int, node: Node):Int {
+    private fun linearRecursiveSearch(target: Int, node: Node): Int {
         if (target == node.value) return 0
         node.next?.let {
             val v = linearRecursiveSearch(target, it)
@@ -68,6 +89,44 @@ class LinkedList {
         return last!!
     }
 
-    data class Node(var value:Int, var next: Node?=null)
+    private fun swap(a /*2*/: DoubleNode, b/*4*/: DoubleNode) {
+        val oldAPrevious = a.previous
+        val oldANext = a.next
+
+        a.previous?.next = b
+        a.next?.previous = b
+        a.previous = b.previous
+        a.next = b.next
+
+        b.previous?.next = a
+        b.next?.previous = a
+        b.previous = oldAPrevious
+        b.next = oldANext
+    }
+
+    data class Node(var value: Int, var next: Node? = null)
+    data class DoubleNode(
+        val value: Int,
+        var previous: DoubleNode? = null,
+        var next: DoubleNode? = null) {
+
+        companion object {
+
+            /**
+             * @return returns the first and last nodes in the list
+             */
+            fun build(num: Int): Pair<DoubleNode, DoubleNode> {
+                var left = DoubleNode(1)
+                val first = left
+                (2..num).forEach {
+                    left.next = DoubleNode(it).apply {
+                        previous = left
+                    }
+                    left = left.next!!
+                }
+                return Pair(first, left)
+            }
+        }
+    }
 
 }
